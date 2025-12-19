@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main # or master, depending on your default branch
+      - master # or master, depending on your default branch
 
 permissions:
   contents: write # This is required for the GITHUB_TOKEN to push to the gh-pages branch
