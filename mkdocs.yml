@@ -1,0 +1,54 @@
+site_name: Karenglish
+site_url: https://www.example.com
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.instant
+  palette:
+    scheme: default
+    primary: indigo
+    accent: deep orange
+nav:
+- Home: index.md
+- Module 1:
+  - Overview: module1/index.md
+  - Unit 1 - Basic Sgaw Karen :
+    - 01 Greetings: module1/unit1/topicA.md
+    - 02 Pronouns & Possessives: module1/unit1/topicB.md
+    - 04 Days of the Week: module1/unit1/topicC.md
+  - Unit 2:
+    - Topic C: module1/unit2/topicC.md
+- Module 2:
+  - Unit 1:
+    - Topic A: module2/unit1/topicA.md
+plugins:
+- search
+markdown_extensions:
+- admonition
+- toc:
+    permalink: true
+- footnotes
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+- toc:
+    toc_depth: 0
+
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/@iKarenglish
+    name: YouTube
+  - icon: fontawesome/brands/instagram
+    link: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fkarenglish_%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExaGxTVmV3dE9LdEJFWTNBTgEem0QFerhJd48WttnM2ZNxbV78kseZPXhjN4BOKv6GxUwlo_9UQEMal4TC82U_aem_ZBsktTp8THr5Y2Fw09SEQg&h=AT3vBN_0OHy96WYQn7C4oAuZTNm_auFbSAMXzYxHKY9ya3h0AUeMpYsZvAx5szCU9-AwvFwanN_Gt-ksH6HL6ctkDVA57TsYgYjK_jytHAO-CdRN_Puk9e-fJTcM
+    name: Instagram
+  - icon: fontawesome/brands/tiktok
+    link: https://www.tiktok.com/@karenglish_
+    name: tiktok
+  - icon: fontawesome/brands/facebook
+    link: https://www.facebook.com/KChawtee/
+    name: facebook
