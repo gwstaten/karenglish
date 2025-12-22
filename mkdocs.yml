@@ -16,9 +16,9 @@ nav:
 - Module 1:
   - Overview: module1/index.md
   - Unit 1 - Basic Sgaw Karen :
-    - 01 Greetings: module1/unit1/topicA.md
-    - 02 Pronouns & Possessives: module1/unit1/topicB.md
-    - 04 Days of the Week: module1/unit1/topicC.md
+    - 01 Greetings: module1/unit1/1.1.1.md
+    - 02 Pronouns & Possessives: module1/unit1/1.1.2.md
+    - 04 Days of the Week: module1/unit1/1.1.4.md
   - Unit 2:
     - Topic C: module1/unit2/topicC.md
 - Module 2:
@@ -32,7 +32,9 @@ markdown_extensions:
     permalink: true
 - footnotes
 extra_css:
-  - stylesheets/extra.css
+  - assets/extra.css
+extra_javascript:
+  - assets/matching-quiz.js
 markdown_extensions:
 - toc:
     toc_depth: 0
