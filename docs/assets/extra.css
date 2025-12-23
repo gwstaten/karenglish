@@ -1,5 +1,5 @@
 /* Container styling */
-#days-quiz {
+.quiz {
     margin: 2em 0;
     padding: 1.5rem;
     background-color: var(--md-code-bg-color, #f8f9fb);
