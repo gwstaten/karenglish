@@ -71,4 +71,6 @@ thead {
   display: none;
 }
 
-
+.md-search {
+    display: none;
+}
